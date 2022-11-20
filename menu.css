@@ -1,0 +1,33 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul#main li {
+    float: left;
+    position: relative;
+    width: 150px;
+}
+ul#main li ul {
+    display: none;
+    position:absolute;
+    left: 0;
+    top: 40px;
+}
+ul li a {
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: darkslategray;
+
+}
+ul#main li:hover ul {
+    display: block;
+}

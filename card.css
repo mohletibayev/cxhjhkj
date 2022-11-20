@@ -1,0 +1,77 @@
+.container {
+    width: 800px;
+    margin-inline:auto;
+    padding: 5px;
+    margin-top: 15px;
+}
+.card {
+    border: 1px solid black;
+    width: 300px;
+}
+
+.card-header img {
+    max-width: 100%;
+}
+.card-content {
+   padding: 14px;
+   min-height: 50px; 
+   text-decoration: none;
+}
+.card-content a {
+    font-size: 20px;
+    margin:0;
+    text-decoration: none;
+    color: #13317f;
+    font-weight: bolder;
+}
+.card-footer {
+    border-top: 1px solid #000000;
+    text-align: center;
+    padding: 3px;
+
+}
+.card-footer span:nth-child(2) {
+    padding-inline: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-inline: 10px;
+}
+.date {
+    position:absolute;
+    font-size: 10px;
+    top: 0;
+    opacity: 0.8;
+}
+.month  {
+    background-color: rgb(171, 180, 221);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+.time  {
+    background-color: rgb(102, 92, 92);
+    color: white;
+}
+.card-header {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
